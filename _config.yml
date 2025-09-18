@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Ilias' Website"
 title_separator          : "-"
 name                     : &name "Ilias Papanikolaou"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "A few words about me"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,10 +27,10 @@ author:
   name             : "Ilias Papanikolaou"
   pronouns         : "he/him"  
   bio              : "A few words about myself"
-  location         : "Earth"
+  location         : #"Earth"
   employer         : "Northwestern University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "iliaspap@u.northwsetern.edu" 
 
   # Academic websites
   # academia         : # URL
