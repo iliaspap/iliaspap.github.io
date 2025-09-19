@@ -8,7 +8,7 @@ date: 2025-01-01
 location: "Evanston, U.S."
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I worked as a Teaching Assistant for the CS212-Discrete Math course. I was happy to get grading experience and engage in conversations with students during office hours.
 
 Heading 1
 ======
