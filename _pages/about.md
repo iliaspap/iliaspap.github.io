@@ -1,13 +1,11 @@
 ---
 permalink: /
+title: About Me
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-About Me
-========
 
 I am a third-year PhD student in Computer Science at Northwestern University, where I work with Konstantin Makarychev. My research interests lie in theoretical computer science, and more specifically, in approximation algorithms and theoretical machine learning. I am excited to design algorithms that come with theoretical guarantees and provide elegant proofs of their efficiency and accuracy. I am especially interested in clustering problems and aim to design practical algorithms for big data applications and high dimensional datasets. More broadly, I want my research to address fundamental questions in the theory of algorithms and machine learning theory and to contribute interpretable models that provide accurate solutions while remaining easy for humans to understand and validate.
 
