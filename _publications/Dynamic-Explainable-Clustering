@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/Dynamic-Explainable-Clustering
 excerpt: 'We study the problem of explainable $$k$$-medians clustering introduced by Dasgupta, Frost, Moshkovitz, and Rashtchian (2020). In this problem, the goal is to construct a threshold decision tree that partitions data into $$k$$ clusters while minimizing the $$k$$-medians objective. These trees are interpretable because each internal node makes a simple decision by thresholding a single feature, allowing users to trace and understand how each point is assigned to a cluster. We design an accurate static explainable clustering algorithm for the $$k$$-medians objective under the $$\ell_p$$ norm for every $$p \geq 1$$ and then show how to implement it in the dynamic setting, where the input is gradually revealed to the algorithm.'
 date: 2025-12-02
-authors: "Konstantin Makarychev, Ilias Papanikolaou, Liren Shan"
+authors: "[Konstantin Makarychev](https://konstantin.makarychev.net/), **Ilias Papanikolaou**, [Liren Shan](https://lirenshan.github.io/)"
 venue: 'NeurIPS (Spotlight Presentation)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
