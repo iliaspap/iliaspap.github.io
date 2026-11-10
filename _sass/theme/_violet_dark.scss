@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Violet skin (dark)
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$accent-on-dark             : #bca7ea;
+$accent-on-dark-hover       : #d6c8f5;
+$background-dark            : #17161d;
+$surface-dark               : #1f1e27;
+$text-on-dark               : #e8e6ef;
+$text-muted-on-dark         : #a6a3b5;
+$border-dark                : #34323f;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #6f4bb0;
+    --global-bg-color                   : #{$background-dark};
+    --global-footer-bg-color            : #{$surface-dark};
+    --global-border-color               : #{$border-dark};
+    --global-dark-border-color          : #{$border-dark};
+    --global-code-background-color      : #{$surface-dark};
+    --global-code-text-color            : #{$text-on-dark};
+    --global-fig-caption-color          : #{$text-muted-on-dark};
+    --global-link-color                 : #{$accent-on-dark};
+    --global-link-color-hover           : #{$accent-on-dark-hover};
+    --global-link-color-visited         : #{$accent-on-dark};
+    --global-masthead-link-color        : #{$text-on-dark};
+    --global-masthead-link-color-hover  : #{$accent-on-dark};
+    --global-text-color                 : #{$text-on-dark};
+    --global-text-color-light           : #{$text-muted-on-dark};
+    --global-thead-color                : #{$surface-dark};
+
+    /* Extra tokens used by _sass/layout/_custom.scss */
+    --global-accent-color               : #{$accent-on-dark};
+    --global-surface-color              : #{$surface-dark};
+    --global-chip-bg-color              : #2c2740;
+    --global-chip-text-color            : #{$accent-on-dark-hover};
+    --global-highlight-bg-color         : #3a3017;
+    --global-highlight-text-color       : #f0d591;
+    --global-link-underline-color       : rgba(188, 167, 234, 0.45);
+}

@@ -6,6 +6,10 @@
 <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 
+{% comment %}
+  Plotly (charts) and Mermaid (diagrams) are not used on this site, so they are no longer
+  downloaded on every page. To use them again, move the two blocks below out of this comment.
+
 <!-- Support for Plotly -->
 <script defer src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
 
@@ -15,5 +19,6 @@
     mermaid.initialize({startOnLoad:true, theme:'default'});
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
+{% endcomment %}
 
 <!-- end custom footer snippets -->

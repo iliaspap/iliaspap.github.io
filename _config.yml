@@ -8,29 +8,30 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Ilias' Website"
+site_theme               : "violet" # Currently available options are "default", "air", "violet"
+title                    : "Ilias Papanikolaou"
 title_separator          : "-"
 name                     : &name "Ilias Papanikolaou"
-description              : &description "Something"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://iliaspap.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Ilias Papanikolaou is a PhD student in Computer Science at Northwestern University, working on approximation algorithms, clustering, and explainable machine learning."
+url                      : https://iliaspap.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "iliaspap/iliaspap.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "new-profile-photo.jpg"
+  avatar           : "profile-photo.jpg"
   name             : "Ilias Papanikolaou"
   pronouns         : "he/him"  
-  bio              : ""
+  bio              : "PhD student in Computer Science"
   location         : # "Earth"
   employer         : "Northwestern University"
+  employer_url     : "https://www.northwestern.edu/"
   uri              : # URL
-  email            : "iliaspap@u.northwsetern.edu" 
+  email            : "iliaspap@u.northwestern.edu"
 
   # Academic websites
   academia         : # URL
@@ -189,6 +190,50 @@ exclude:
   - README
   - tmp
   - vendor
+  # --- Unused demo content that ships with the AcademicPages template ---------------
+  # These files are kept in the repository but are no longer published on the site.
+  # Delete a line to publish that item again (or delete the files themselves for good).
+  - _posts
+  - _drafts
+  - _talks
+  - _portfolio
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - files/bibtex1.bib
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
+  - markdown_generator
+  - scripts
+  - CONTRIBUTING.md
+  - README.md
+  - docker-compose.yaml
+  - _config_docker.yml
+  - images/themes
+  - images/500x300.png
+  - images/bio-photo.jpg
+  - images/bio-photo-2.jpg
+  - images/editing-talk.png
+  - images/profile.png
 keep_files:
   - .git
   - .svn
@@ -217,18 +262,21 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
+# NOTE: "output: false" means no stand-alone page is generated per entry; the entries
+#       are still listed in full on the Research, Teaching and CV pages. Set it back to
+#       "true" if you ever want a dedicated page for each paper or course.
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

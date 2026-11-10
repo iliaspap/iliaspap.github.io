@@ -7,6 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<!-- Courses are grouped by institution (the "venue" of each entry in _teaching), most recent first -->
+{% assign courses = site.teaching | reverse %}
+{% assign groups = courses | group_by: "venue" %}
+
+{% for group in groups %}
+  {% assign venue_url = site.data.institutions[group.name] %}
+  <h2 class="section-label">{% if venue_url %}<a href="{{ venue_url }}">{{ group.name }}</a>{% else %}{{ group.name }}{% endif %}</h2>
+  <ul class="entry-list">
+    {% for post in group.items %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </ul>
 {% endfor %}

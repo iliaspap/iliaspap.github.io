@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Violet skin (light) - a quiet, typographic theme with a Northwestern-purple
+   accent. Select it with `site_theme: "violet"` in _config.yml.
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$accent                     : #4e2a84;   /* Northwestern purple */
+$accent-dark                : #3a1f63;
+$background                 : #ffffff;
+$surface                    : #f6f5f9;   /* footer, chips */
+$text                       : #1d1c24;
+$text-muted                 : #5d5b6a;
+$border                     : #e4e2ea;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+:root {
+    --global-base-color                 : #{$accent};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$surface};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border};
+    --global-code-background-color      : #{$surface};
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$text-muted};
+    --global-link-color                 : #{$accent};
+    --global-link-color-hover           : #{$accent-dark};
+    --global-link-color-visited         : #{$accent};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$accent};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$text-muted};
+    --global-thead-color                : #{$surface};
+
+    /* Extra tokens used by _sass/layout/_custom.scss */
+    --global-accent-color               : #{$accent};
+    --global-surface-color              : #{$surface};
+    --global-chip-bg-color              : #efeaf7;
+    --global-chip-text-color            : #{$accent-dark};
+    --global-highlight-bg-color         : #fbf0cf;
+    --global-highlight-text-color       : #6f4800;
+    --global-link-underline-color       : rgba(78, 42, 132, 0.35);
+}

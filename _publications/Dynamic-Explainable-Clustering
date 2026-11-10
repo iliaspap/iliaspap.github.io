@@ -1,15 +1,17 @@
 ---
-title: "Dynamic Algorithm for Explainable $$k$$-medians Clustering under the $$l_p$$ Norm"
+title: 'Dynamic Algorithm for Explainable $$k$$-medians Clustering under the $$\ell_p$$ Norm'
 collection: publications
 category: conferences
 permalink: /publication/Dynamic-Explainable-Clustering
 excerpt: 'We study the problem of explainable $$k$$-medians clustering introduced by Dasgupta, Frost, Moshkovitz, and Rashtchian (2020). In this problem, the goal is to construct a threshold decision tree that partitions data into $$k$$ clusters while minimizing the $$k$$-medians objective. These trees are interpretable because each internal node makes a simple decision by thresholding a single feature, allowing users to trace and understand how each point is assigned to a cluster. We design an accurate static explainable clustering algorithm for the $$k$$-medians objective under the $$\ell_p$$ norm for every $$p \geq 1$$ and then show how to implement it in the dynamic setting, where the input is gradually revealed to the algorithm.'
-date: 2025-12-02
+date: 2025-12-02   # used for ordering only; the year shown on the site comes from "venue"
 authors: "[Konstantin Makarychev](https://konstantin.makarychev.net/), **Ilias Papanikolaou**, [Liren Shan](https://lirenshan.github.io/)"
-venue: 'NeurIPS (Spotlight Presentation)'
-# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-# paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-# bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'NeurIPS 2025'
+highlight: 'Spotlight Presentation'
+# Optional extras - uncomment and fill in any that apply; each one adds a link under the paper.
+# arxiv: 'https://arxiv.org/abs/XXXX.XXXXX'
+# paperurl: 'https://iliaspap.github.io/files/your-paper.pdf'
+# slidesurl: 'https://iliaspap.github.io/files/your-slides.pdf'
+# posterurl: 'https://iliaspap.github.io/files/your-poster.pdf'
+# codeurl: 'https://github.com/...'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
