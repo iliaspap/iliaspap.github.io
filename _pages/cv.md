@@ -15,7 +15,13 @@ redirect_from:
   - Publications and Teaching are filled in automatically from the files in the
     _publications and _teaching folders, so a new paper or course only has to be
     added there.
+  - The "Download CV" button serves files/Ilias_Papanikolaou_CV.pdf. To update the
+    PDF, replace that file with a new one of the same name.
 -->
+
+<p class="cv-download">
+  <a class="button-link" href="{{ base_path }}/files/Ilias_Papanikolaou_CV.pdf" download><i class="fas fa-download" aria-hidden="true"></i>Download CV (PDF)</a>
+</p>
 
 <h2 class="section-label">Education</h2>
 <ul class="entry-list">
