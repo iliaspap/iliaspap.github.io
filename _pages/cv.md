@@ -54,6 +54,7 @@ redirect_from:
 <h2 class="section-label">Skills</h2>
 <ul class="plain-list">
   <li><strong>Programming languages:</strong> C/C++, Python, Java</li>
+  <li><strong>Machine learning:</strong> hands-on experience with large language models (LLMs), gained through the Northwestern graduate course CS461 - &ldquo;Deep Learning for Natural Language Processing&rdquo;</li>
 </ul>
 
 <h2 class="section-label">Languages</h2>
