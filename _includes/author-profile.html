@@ -33,6 +33,13 @@
           <li><span class="author__plain" itemprop="affiliation"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</span></li>
         {% endif %}
       {% endif %}
+      {% if author.alma_mater %}
+        {% if author.alma_mater_url %}
+          <li><a href="{{ author.alma_mater_url }}" target="_blank" rel="noopener" itemprop="alumniOf"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>{{ author.alma_mater }}</a></li>
+        {% else %}
+          <li><span class="author__plain" itemprop="alumniOf"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>{{ author.alma_mater }}</span></li>
+        {% endif %}
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}

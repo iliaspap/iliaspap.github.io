@@ -11,11 +11,17 @@ redirect_from:
 
 <!--
   How to edit this page
-  - Education, Skills and Languages are written by hand below.
+  - Education, Service, Skills and Languages are written by hand below.
   - Publications and Teaching are filled in automatically from the files in the
     _publications and _teaching folders, so a new paper or course only has to be
     added there.
+  - The "Download CV" button serves files/Ilias_Papanikolaou_CV.pdf. To update the
+    PDF, replace that file with a new one of the same name.
 -->
+
+<p class="cv-download">
+  <a class="button-link" href="{{ base_path }}/files/Ilias_Papanikolaou_CV.pdf" download><i class="fas fa-download" aria-hidden="true"></i>Download CV (PDF)</a>
+</p>
 
 <h2 class="section-label">Education</h2>
 <ul class="entry-list">
@@ -51,10 +57,15 @@ redirect_from:
   {% endfor %}
 </ul>
 
+<h2 class="section-label">Service</h2>
+<ul class="plain-list">
+  <li><strong>Reviewer:</strong> International Conference on Learning Representations (ICLR) 2027</li>
+</ul>
+
 <h2 class="section-label">Skills</h2>
 <ul class="plain-list">
   <li><strong>Programming languages:</strong> C/C++, Python, Java</li>
-  <li><strong>Machine learning:</strong> hands-on experience with large language models (LLMs), gained through the Northwestern graduate course CS461 - &ldquo;Deep Learning for Natural Language Processing&rdquo;</li>
+  <li><strong>Machine learning:</strong> PyTorch; implemented basic language-model architectures and fine-tuned language models for question answering and text generation, including parameter-efficient fine-tuning (LoRA), in the graduate course CS461 - &ldquo;Deep Learning for Natural Language Processing&rdquo;</li>
 </ul>
 
 <h2 class="section-label">Languages</h2>

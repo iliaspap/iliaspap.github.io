@@ -30,6 +30,8 @@ author:
   location         : # "Earth"
   employer         : "Northwestern University"
   employer_url     : "https://www.northwestern.edu/"
+  alma_mater       : "National Technical University of Athens"   # shown under the employer in the sidebar
+  alma_mater_url   : "https://www.ntua.gr/en/"
   uri              : # URL
   email            : "iliaspap@u.northwestern.edu"
 
