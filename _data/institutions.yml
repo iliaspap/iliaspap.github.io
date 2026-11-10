@@ -1,0 +1,6 @@
+# Websites of the institutions that appear on the Teaching and CV pages.
+# The key must match the "venue" of an entry in _teaching exactly; the name is
+# then shown as a link to the URL given here.
+
+"Northwestern University": "https://www.northwestern.edu/"
+"National Technical University of Athens": "https://www.ntua.gr/en/"

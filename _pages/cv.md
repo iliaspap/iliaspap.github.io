@@ -9,58 +9,57 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Theoretical Computer Science, Northwestern University, 2028 (expected)
-* Integrated Master (MEng) of Electrical and Computer Engineering, National Technical University of Athens, Oct. 2017 - Apr. 2023
+<!--
+  How to edit this page
+  - Education, Skills and Languages are written by hand below.
+  - Publications and Teaching are filled in automatically from the files in the
+    _publications and _teaching folders, so a new paper or course only has to be
+    added there.
+-->
 
-<!-- Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<h2 class="section-label">Education</h2>
+<ul class="entry-list">
+  <li class="entry">
+    <div class="entry__body">
+      <h3 class="entry__title">Ph.D. in Theoretical Computer Science</h3>
+      <p class="entry__sub"><a href="https://www.northwestern.edu/">Northwestern University</a></p>
+      <p class="entry__sub">Advised by <a href="https://konstantin.makarychev.net/">Konstantin Makarychev</a></p>
+    </div>
+    <div class="entry__date">2023 &ndash; present<br>(expected 2028)</div>
+  </li>
+  <li class="entry">
+    <div class="entry__body">
+      <h3 class="entry__title">Integrated Master (MEng) in Electrical and Computer Engineering</h3>
+      <p class="entry__sub"><a href="https://www.ntua.gr/en/">National Technical University of Athens</a></p>
+      <p class="entry__sub">Diploma thesis on explainable clustering, supervised by <a href="https://www.ece.ntua.gr/en/staff/180">Dimitris Fotakis</a></p>
+    </div>
+    <div class="entry__date">Oct. 2017 &ndash; Apr. 2023</div>
+  </li>
+</ul>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git -->
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
+<h2 class="section-label">Publications</h2>
+<ul class="entry-list">
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
+  {% endfor %}
+</ul>
+
+<h2 class="section-label">Teaching</h2>
+<ul class="entry-list">
+  {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+</ul>
 
-Skills
-======
-* C/C++
-* Python
-* Java
+<h2 class="section-label">Skills</h2>
+<ul class="plain-list">
+  <li><strong>Programming languages:</strong> C/C++, Python, Java</li>
+  <li><strong>Machine learning:</strong> hands-on experience with large language models (LLMs), gained through the Northwestern graduate course CS461 - &ldquo;Deep Learning for Natural Language Processing&rdquo;</li>
+</ul>
 
-Languages
-======
-* Greek (Native Proficiency)
-* English (Full Professional Proficiency)
-* German (Elementary Proficiency)
-  
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+<h2 class="section-label">Languages</h2>
+<ul class="plain-list">
+  <li><strong>Greek:</strong> native proficiency</li>
+  <li><strong>English:</strong> full professional proficiency</li>
+  <li><strong>German:</strong> elementary proficiency</li>
+</ul>
