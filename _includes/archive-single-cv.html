@@ -17,7 +17,7 @@
         <p class="entry__sub">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
       {% endif %}
       {% if post.venue %}
-        <p class="entry__sub"><em>{{ post.venue }}</em>{% if post.highlight %} ({{ post.highlight }}){% endif %}</p>
+        <p class="entry__sub">{% if post.to_appear %}To appear in {% endif %}<em>{{ post.venue }}</em>{% if post.highlight %} ({{ post.highlight }}){% endif %}</p>
       {% endif %}
     {% else %}
       {% if post.venue %}

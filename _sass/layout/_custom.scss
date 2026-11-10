@@ -663,6 +663,11 @@ h2.section-label {
     i {
       margin-right: 0.45em;
     }
+
+    .ai {
+      font-size: 1.2em;   /* Academicons glyphs are drawn smaller than Font Awesome ones */
+      vertical-align: -0.1em;
+    }
   }
 }
 

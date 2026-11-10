@@ -7,9 +7,11 @@ excerpt: 'We study explainable $$k$$-means clustering, introduced by Dasgupta, F
 date: 2026-12-01   # used for ordering only; the year shown on the site comes from "venue"
 authors: "Xinyuan Cao, [Konstantin Makarychev](https://konstantin.makarychev.net/), **Ilias Papanikolaou**, [Liren Shan](https://lirenshan.github.io/)"
 venue: 'NeurIPS 2026'
+to_appear: true   # shows "To appear in ..."; delete this line once the paper is published
 # Optional extras - uncomment and fill in any that apply; each one adds a link under the paper.
 # highlight: 'Spotlight Presentation'
 # arxiv: 'https://arxiv.org/abs/XXXX.XXXXX'
+# scholarurl: 'https://scholar.google.com/citations?view_op=view_citation&...'
 # paperurl: 'https://iliaspap.github.io/files/your-paper.pdf'
 # slidesurl: 'https://iliaspap.github.io/files/your-slides.pdf'
 # posterurl: 'https://iliaspap.github.io/files/your-poster.pdf'

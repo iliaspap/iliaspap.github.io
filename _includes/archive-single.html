@@ -3,6 +3,7 @@
 {% comment %}
   Renders one entry of a collection.
     - publications -> title, authors, venue chips, abstract and optional links
+                      ("to_appear: true" in the front matter adds "To appear in" before the venue)
     - teaching     -> title, course type and term
     - anything else (e.g. blog posts) -> the original AcademicPages list item
 
@@ -30,7 +31,7 @@
 
     {% if post.venue or post.highlight %}
       <p class="pub__meta">
-        {% if post.venue %}<span class="chip">{{ post.venue }}</span>{% endif %}
+        {% if post.venue %}<span class="chip">{% if post.to_appear %}To appear in {% endif %}{{ post.venue }}</span>{% endif %}
         {% if post.highlight %}<span class="chip chip--highlight"><i class="fas fa-star" aria-hidden="true"></i>{{ post.highlight }}</span>{% endif %}
       </p>
     {% endif %}
@@ -39,9 +40,10 @@
       <div class="pub__abstract" itemprop="description">{{ post.excerpt | markdownify | replace: "\)-", "@@MATH-HYPHEN@@" | replace: "\)", "\)</span>" | replace: "@@MATH-HYPHEN@@", "\)-</span>" | replace: "\(", '<span class="math-nowrap">\(' }}</div>
     {% endunless %}{% endif %}
 
-    {% if post.arxiv or post.paperurl or post.slidesurl or post.posterurl or post.codeurl or post.bibtexurl %}
+    {% if post.arxiv or post.scholarurl or post.paperurl or post.slidesurl or post.posterurl or post.codeurl or post.bibtexurl %}
       <p class="pub__links">
         {% if post.arxiv %}<a href="{{ post.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>{% endif %}
+        {% if post.scholarurl %}<a href="{{ post.scholarurl | escape }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a>{% endif %}
         {% if post.paperurl %}<a href="{{ post.paperurl }}"><i class="fas fa-file-pdf" aria-hidden="true"></i>PDF</a>{% endif %}
         {% if post.slidesurl %}<a href="{{ post.slidesurl }}"><i class="fas fa-display" aria-hidden="true"></i>Slides</a>{% endif %}
         {% if post.posterurl %}<a href="{{ post.posterurl }}"><i class="fas fa-image" aria-hidden="true"></i>Poster</a>{% endif %}
