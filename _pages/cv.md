@@ -65,7 +65,7 @@ redirect_from:
 <h2 class="section-label">Skills</h2>
 <ul class="plain-list">
   <li><strong>Programming:</strong> C/C++, Python (PyTorch), Java</li>
-  <li><strong>LLM experience</strong> (CS461 coursework): implemented a neural probabilistic language model (Bengio et al.); fine-tuned BERT and a GPT-style decoder-only model for question answering and text generation, including LoRA fine-tuning</li>
+  <li><strong>LLM experience</strong> (CS461 - Deep Learning for Natural Language Processing): implementation of neural language models; fine-tuning of BERT and GPT-style models for question answering and text generation, including LoRA</li>
 </ul>
 
 <h2 class="section-label">Languages</h2>
