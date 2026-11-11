@@ -8,9 +8,9 @@ date: 2025-12-02   # used for ordering only; the year shown on the site comes fr
 authors: "[Konstantin Makarychev](https://konstantin.makarychev.net/), **Ilias Papanikolaou**, [Liren Shan](https://lirenshan.github.io/)"
 venue: 'NeurIPS 2025'
 highlight: 'Spotlight Presentation'
+arxiv: 'https://arxiv.org/abs/2512.01150'
 scholarurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3M4nr3MAAAAJ&sortby=pubdate&citation_for_view=3M4nr3MAAAAJ:YOwf2qJgpHMC'
 # Optional extras - uncomment and fill in any that apply; each one adds a link under the paper.
-# arxiv: 'https://arxiv.org/abs/XXXX.XXXXX'
 # paperurl: 'https://iliaspap.github.io/files/your-paper.pdf'
 # slidesurl: 'https://iliaspap.github.io/files/your-slides.pdf'
 # posterurl: 'https://iliaspap.github.io/files/your-poster.pdf'

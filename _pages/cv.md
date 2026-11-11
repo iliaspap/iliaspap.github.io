@@ -64,8 +64,8 @@ redirect_from:
 
 <h2 class="section-label">Skills</h2>
 <ul class="plain-list">
-  <li><strong>Programming languages:</strong> C/C++, Python, Java</li>
-  <li><strong>Machine learning:</strong> PyTorch; implemented basic language-model architectures and fine-tuned language models for question answering and text generation, including parameter-efficient fine-tuning (LoRA), in the graduate course CS461 - &ldquo;Deep Learning for Natural Language Processing&rdquo;</li>
+  <li><strong>Programming:</strong> C/C++, Python (PyTorch), Java</li>
+  <li><strong>LLM experience</strong> (CS461 coursework): implemented a neural probabilistic language model (Bengio et al.); fine-tuned BERT and a GPT-style decoder-only model for question answering and text generation, including LoRA fine-tuning</li>
 </ul>
 
 <h2 class="section-label">Languages</h2>
